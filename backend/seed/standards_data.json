@@ -1,0 +1,330 @@
+[
+  {
+    "is_number": "IS 269:2015",
+    "title": "Ordinary Portland Cement — Specification",
+    "year": 2015,
+    "scope": "Covers the requirements for ordinary Portland cement of 33 grade, 43 grade, and 53 grade for general use in construction, including chemical requirements, physical requirements, and test methods.",
+    "keywords": ["cement", "portland", "construction", "OPC", "33 grade", "43 grade", "53 grade", "building material"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 1786:2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement — Specification",
+    "year": 2008,
+    "scope": "Covers the requirements for high strength deformed steel bars and wires for use as reinforcement in concrete, including dimensions, chemical composition, mechanical properties, and test methods.",
+    "keywords": ["steel", "reinforcement", "rebar", "TMT", "concrete", "construction", "deformed bars"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 456:2000",
+    "title": "Plain and Reinforced Concrete — Code of Practice",
+    "year": 2000,
+    "scope": "Code of practice for general structural use of plain and reinforced concrete covering materials, workmanship, design requirements, and durability. Applicable to buildings, bridges, and other structures.",
+    "keywords": ["concrete", "reinforced", "structural", "design", "construction", "RCC", "building"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 2062:2011",
+    "title": "Hot Rolled Medium and High Tensile Structural Steel — Specification",
+    "year": 2011,
+    "scope": "Covers requirements for hot rolled medium and high tensile structural steel plates, strips, shapes and sections for use in structural and general engineering purposes.",
+    "keywords": ["steel", "structural", "hot rolled", "tensile", "plates", "sections", "engineering"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 1893:2016",
+    "title": "Criteria for Earthquake Resistant Design of Structures",
+    "year": 2016,
+    "scope": "Provides criteria for earthquake resistant design of structures including buildings, bridges, and retaining walls. Covers seismic zone classification, design spectrum, and analysis methods.",
+    "keywords": ["earthquake", "seismic", "structural design", "safety", "building code", "disaster resistant"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 875:2015",
+    "title": "Code of Practice for Design Loads for Buildings and Structures",
+    "year": 2015,
+    "scope": "Specifies design loads (dead, imposed, wind, snow, and special loads) for buildings and structures. Used for structural design calculations.",
+    "keywords": ["design loads", "wind load", "dead load", "structural design", "building", "safety"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 10262:2019",
+    "title": "Concrete Mix Proportioning — Guidelines",
+    "year": 2019,
+    "scope": "Provides guidelines for proportioning concrete mixes for desired properties using Indian cements and aggregates. Covers mix design methodology for different grades.",
+    "keywords": ["concrete mix", "mix design", "proportioning", "aggregates", "cement", "construction"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 3043:2018",
+    "title": "Code of Practice for Earthing",
+    "year": 2018,
+    "scope": "Covers the practice of earthing of electrical installations including selection of earth electrodes, earthing conductors, and measurement of earth resistance for buildings and substations.",
+    "keywords": ["earthing", "grounding", "electrical", "safety", "earth electrode", "installation"],
+    "sector": "Electrical"
+  },
+  {
+    "is_number": "IS 732:2019",
+    "title": "Code of Practice for Electrical Wiring Installations",
+    "year": 2019,
+    "scope": "Covers design, erection, and testing of electrical wiring installations in and around buildings, including selection of cables, conduits, switches, and protection devices.",
+    "keywords": ["electrical wiring", "installation", "cables", "conduit", "switches", "building electrical"],
+    "sector": "Electrical"
+  },
+  {
+    "is_number": "IS 694:2020",
+    "title": "PVC Insulated Cables for Working Voltages up to and including 1100V",
+    "year": 2020,
+    "scope": "Covers requirements for PVC insulated cables and flexible cords for working voltages up to 1100V used in electrical wiring of buildings and equipment.",
+    "keywords": ["PVC cable", "insulated cable", "electrical cable", "wiring", "1100V", "conductor"],
+    "sector": "Electrical"
+  },
+  {
+    "is_number": "IS 1172:1993",
+    "title": "Code of Basic Requirements for Water Supply, Drainage and Sanitation",
+    "year": 1993,
+    "scope": "Covers basic requirements for water supply, drainage, and sanitation in buildings including water demand, storage, distribution, and wastewater disposal.",
+    "keywords": ["water supply", "drainage", "sanitation", "plumbing", "building services", "sewerage"],
+    "sector": "Plumbing"
+  },
+  {
+    "is_number": "IS 2685:2018",
+    "title": "Unplasticized PVC Pipes for Water Supply",
+    "year": 2018,
+    "scope": "Specification for unplasticized PVC pipes used for potable water supply, including dimensions, material requirements, and pressure ratings.",
+    "keywords": ["PVC pipes", "water supply", "plumbing", "potable water", "pressure pipe"],
+    "sector": "Plumbing"
+  },
+  {
+    "is_number": "IS 15778:2007",
+    "title": "Chlorinated Polyvinyl Chloride (CPVC) Pipes for Potable Hot and Cold Water Distribution",
+    "year": 2007,
+    "scope": "Covers CPVC pipes for hot and cold water distribution in buildings, including material requirements, dimensions, and pressure ratings.",
+    "keywords": ["CPVC", "hot water", "cold water", "plumbing", "pipe", "potable water"],
+    "sector": "Plumbing"
+  },
+  {
+    "is_number": "IS 1642:1989",
+    "title": "Code of Practice for Fire Safety of Buildings — General",
+    "year": 1989,
+    "scope": "Provides general principles for fire safety in building design and construction, including fire resistance ratings, means of escape, fire detection, and suppression systems.",
+    "keywords": ["fire safety", "fire resistance", "escape route", "fire detection", "suppression", "building safety"],
+    "sector": "Fire Safety"
+  },
+  {
+    "is_number": "IS 2189:2008",
+    "title": "Code of Practice for Selection, Installation and Maintenance of Automatic Fire Detection and Alarm Systems",
+    "year": 2008,
+    "scope": "Covers selection, installation, and maintenance of automatic fire detection and alarm systems for buildings, including types of detectors and alarm configurations.",
+    "keywords": ["fire alarm", "fire detection", "smoke detector", "alarm system", "fire safety"],
+    "sector": "Fire Safety"
+  },
+  {
+    "is_number": "IS 15301:2019",
+    "title": "Portable Fire Extinguishers — Specification",
+    "year": 2019,
+    "scope": "Covers requirements for portable fire extinguishers including types (water, foam, dry powder, CO2), performance, marking, and testing requirements.",
+    "keywords": ["fire extinguisher", "portable", "fire safety", "CO2", "dry powder", "foam"],
+    "sector": "Fire Safety"
+  },
+  {
+    "is_number": "IS 13252:2010",
+    "title": "Uninterruptible Power Systems (UPS) — General Requirements and Safety",
+    "year": 2010,
+    "scope": "Covers general and safety requirements for uninterruptible power systems (UPS) used to protect critical electronic equipment from power disturbances.",
+    "keywords": ["UPS", "uninterruptible power", "power supply", "backup power", "electronic equipment"],
+    "sector": "IT & Electronics"
+  },
+  {
+    "is_number": "IS 13252-2:2014",
+    "title": "UPS — EMC Requirements",
+    "year": 2014,
+    "scope": "Covers electromagnetic compatibility (EMC) requirements for UPS systems including emission limits and immunity requirements.",
+    "keywords": ["UPS", "EMC", "electromagnetic", "interference", "power supply"],
+    "sector": "IT & Electronics"
+  },
+  {
+    "is_number": "IS 8758:2007",
+    "title": "Liquid Crystal Display (LCD) Monitors",
+    "year": 2007,
+    "scope": "Specification for LCD monitors used with computers and electronic equipment, including display resolution, brightness, contrast, and safety requirements.",
+    "keywords": ["LCD", "monitor", "display", "computer", "screen", "visual display"],
+    "sector": "IT & Electronics"
+  },
+  {
+    "is_number": "IS 13252-1:2010",
+    "title": "Information Technology Equipment — Safety — General Requirements",
+    "year": 2010,
+    "scope": "Covers safety requirements for information technology equipment including computers, printers, monitors, and networking devices to protect operators and service persons.",
+    "keywords": ["IT equipment", "safety", "computer", "printer", "networking", "electronic safety"],
+    "sector": "IT & Electronics"
+  },
+  {
+    "is_number": "IS 16001:2017",
+    "title": "Structured Cabling for Data Centres — Specification",
+    "year": 2017,
+    "scope": "Covers specifications for structured cabling systems in data centres including copper and fibre optic cabling, patch panels, and cable management.",
+    "keywords": ["data centre", "structured cabling", "networking", "fibre optic", "LAN", "cable management"],
+    "sector": "IT & Electronics"
+  },
+  {
+    "is_number": "IS 11060:2016",
+    "title": "Network Switches and Routers — Specification",
+    "year": 2016,
+    "scope": "Covers specifications for Ethernet switches and routers used in LAN and WAN networking, including performance, port types, and management features.",
+    "keywords": ["network switch", "router", "Ethernet", "LAN", "WAN", "networking equipment"],
+    "sector": "IT & Electronics"
+  },
+  {
+    "is_number": "IS 7933:2010",
+    "title": "Packaged Natural Mineral Water — Specification",
+    "year": 2010,
+    "scope": "Covers requirements for packaged natural mineral water including source protection, chemical and microbiological requirements, and packaging standards.",
+    "keywords": ["mineral water", "packaged water", "drinking water", "water quality", "bottled water"],
+    "sector": "Food & Beverages"
+  },
+  {
+    "is_number": "IS 14543:2016",
+    "title": "Packaged Drinking Water (Other Than Packaged Natural Mineral Water) — Specification",
+    "year": 2016,
+    "scope": "Covers requirements for packaged drinking water from treated sources, including treatment processes, chemical limits, and microbiological standards.",
+    "keywords": ["drinking water", "packaged water", "treated water", "water purification", "potable water"],
+    "sector": "Food & Beverages"
+  },
+  {
+    "is_number": "IS 10500:2012",
+    "title": "Drinking Water — Specification",
+    "year": 2012,
+    "scope": "Prescribes requirements for drinking water quality including physical, chemical, and bacteriological parameters with acceptable and permissible limits.",
+    "keywords": ["drinking water", "water quality", "water standards", "purification", "potable water", "chemical limits"],
+    "sector": "Food & Beverages"
+  },
+  {
+    "is_number": "IS 7654:2010",
+    "title": "General Principles of Food Hygiene — Code of Practice",
+    "year": 2010,
+    "scope": "Covers general principles of food hygiene from primary production to final consumption, including HACCP principles and personal hygiene requirements.",
+    "keywords": ["food hygiene", "HACCP", "food safety", "sanitation", "food handling", "contamination"],
+    "sector": "Food & Beverages"
+  },
+  {
+    "is_number": "IS 2490:2010",
+    "title": "Edible Oils — Packaging and Labelling",
+    "year": 2010,
+    "scope": "Covers requirements for packaging and labelling of edible oils including container materials, label information, and storage conditions.",
+    "keywords": ["edible oil", "packaging", "labelling", "food packaging", "cooking oil"],
+    "sector": "Food & Beverages"
+  },
+  {
+    "is_number": "IS 6528:2005",
+    "title": "Canned Foods — General Requirements",
+    "year": 2005,
+    "scope": "Covers general requirements for canned foods including container specifications, processing requirements, labelling, and shelf life considerations.",
+    "keywords": ["canned food", "preserved food", "food packaging", "canning", "shelf life", "food processing"],
+    "sector": "Food & Beverages"
+  },
+  {
+    "is_number": "IS 2925:1984",
+    "title": "Specification for Industrial Safety Helmets",
+    "year": 1984,
+    "scope": "Covers requirements for industrial safety helmets for protection against impact from falling objects, including materials, design, and testing requirements.",
+    "keywords": ["safety helmet", "hard hat", "industrial safety", "head protection", "PPE", "construction safety"],
+    "sector": "Safety Equipment"
+  },
+  {
+    "is_number": "IS 5983:1980",
+    "title": "Eye Protectors for Industrial Use — Specification",
+    "year": 1980,
+    "scope": "Covers requirements for industrial eye protectors including safety spectacles, goggles, and face shields for protection against mechanical, chemical, and radiation hazards.",
+    "keywords": ["eye protection", "safety goggles", "face shield", "PPE", "industrial safety"],
+    "sector": "Safety Equipment"
+  },
+  {
+    "is_number": "IS 15298:2002",
+    "title": "Safety Shoes — Specification",
+    "year": 2002,
+    "scope": "Covers requirements for safety footwear including toe protection, slip resistance, and material requirements for use in industrial environments.",
+    "keywords": ["safety shoes", "safety footwear", "industrial safety", "toe protection", "PPE", "slip resistant"],
+    "sector": "Safety Equipment"
+  },
+  {
+    "is_number": "IS 1498:1970",
+    "title": "Classification and Identification of Soils for General Engineering Purposes",
+    "year": 1970,
+    "scope": "Covers classification system for soils based on grain size, plasticity, and other engineering properties for use in civil engineering applications.",
+    "keywords": ["soil classification", "geotechnical", "soil testing", "engineering properties", "foundation"],
+    "sector": "Civil Engineering"
+  },
+  {
+    "is_number": "IS 8112:2013",
+    "title": "43 Grade Ordinary Portland Cement — Specification",
+    "year": 2013,
+    "scope": "Covers specific requirements for 43 grade OPC including chemical composition, physical requirements, compressive strength, and test methods.",
+    "keywords": ["cement", "OPC", "43 grade", "portland cement", "construction material"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 3812:2013",
+    "title": "Pulverized Fuel Ash — Specification (Fly Ash)",
+    "year": 2013,
+    "scope": "Covers requirements for fly ash (pulverized fuel ash) for use as pozzolana in cement, concrete, and mortar. Includes chemical and physical requirements.",
+    "keywords": ["fly ash", "pozzolana", "cement additive", "concrete admixture", "PFA"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 516:2018",
+    "title": "Method of Tests for Strength of Concrete",
+    "year": 2018,
+    "scope": "Covers methods for testing compressive, flexural, and split tensile strength of concrete specimens including cube and cylinder tests.",
+    "keywords": ["concrete testing", "compressive strength", "flexural strength", "cube test", "quality control"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 383:2016",
+    "title": "Coarse and Fine Aggregate for Concrete — Specification",
+    "year": 2016,
+    "scope": "Covers requirements for coarse and fine aggregates from natural sources for use in concrete, including grading, physical properties, and deleterious substances.",
+    "keywords": ["aggregate", "sand", "gravel", "concrete", "coarse aggregate", "fine aggregate"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 1255:2019",
+    "title": "Code of Practice for Installation and Maintenance of Power Transformers",
+    "year": 2019,
+    "scope": "Covers installation, commissioning, and maintenance of power transformers including site preparation, testing, oil management, and safety measures.",
+    "keywords": ["transformer", "power transformer", "electrical installation", "commissioning", "maintenance"],
+    "sector": "Electrical"
+  },
+  {
+    "is_number": "IS 15885:2010",
+    "title": "Specification for LED-Based Luminaires for General Lighting",
+    "year": 2010,
+    "scope": "Covers specifications for LED luminaires used for general lighting purposes in buildings and outdoor areas, including photometric and electrical requirements.",
+    "keywords": ["LED", "lighting", "luminaire", "energy efficient", "general lighting", "building lighting"],
+    "sector": "Electrical"
+  },
+  {
+    "is_number": "IS 1161:2014",
+    "title": "Steel Tubes for Structural Purposes — Specification",
+    "year": 2014,
+    "scope": "Covers requirements for steel tubes (round, square, rectangular) for structural and general engineering purposes including dimensions and mechanical properties.",
+    "keywords": ["steel tube", "structural steel", "hollow section", "pipe", "construction"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 9001:2018",
+    "title": "Specification for Ready-Mixed Concrete",
+    "year": 2018,
+    "scope": "Covers requirements for ready-mixed concrete including batching, mixing, transporting, and quality control requirements for various grades.",
+    "keywords": ["ready-mixed concrete", "RMC", "batching", "concrete supply", "quality control"],
+    "sector": "Construction"
+  },
+  {
+    "is_number": "IS 808:1989",
+    "title": "Dimensions for Hot Rolled Steel Beam, Column, Channel and Angle Sections",
+    "year": 1989,
+    "scope": "Specifies dimensions and properties of hot rolled steel sections including I-beams, H-columns, channels, and angles used in structural engineering.",
+    "keywords": ["steel sections", "I-beam", "channel", "angle", "structural steel", "hot rolled"],
+    "sector": "Construction"
+  }
+]
