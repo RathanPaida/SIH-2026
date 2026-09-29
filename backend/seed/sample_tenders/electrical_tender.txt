@@ -1,0 +1,43 @@
+TENDER NOTICE — ELECTRICAL WORKS
+Tender Ref: EW/2026/0047
+Subject: Supply and Installation of Electrical Cables, Switches and Socket-Outlets
+
+1. SCOPE OF WORK
+Supply and installation of electrical wiring system for a new government office building, Block-C.
+
+2. TECHNICAL SPECIFICATIONS
+
+2.1 PVC Insulated Cables
+All PVC insulated cables shall conform to IS 694 and shall be suitable for working voltages up to 1100V. Cables shall be of copper conductor, PVC insulated with following ratings:
+- 1.5 sq mm for lighting circuits
+- 2.5 sq mm for power socket circuits  
+- 4.0 sq mm for high power appliances
+- 6.0 sq mm for sub-main cables
+All cables shall be ISI marked.
+
+2.2 XLPE Cables
+XLPE insulated PVC sheathed cables as per IS 7098 shall be used for main feeders. Cables shall be armoured type, suitable for direct burial and outdoor installation. Cross-section shall be as per approved electrical drawings.
+
+2.3 Switches
+Modular type piano switches conforming to relevant Indian Standards shall be supplied. Switches shall be rated 6A and 16A, 250V AC. All switches shall be from approved manufacturers.
+
+2.4 Socket-Outlets
+5-pin and 6-pin socket-outlets shall be provided as per electrical layout. Socket-outlets shall be flush mounted type, rated 6A/16A, 250V.
+
+2.5 Earthing System
+Complete earthing system shall be provided as per IS 3043:2018. Minimum two earth pits with GI pipe electrodes shall be installed. Earth resistance shall not exceed 1 ohm.
+
+2.6 Wiring Installation
+All electrical wiring installation shall conform to IS 732:2019. Concealed PVC conduit wiring system shall be adopted. All joints shall be made in junction boxes.
+
+2.7 Distribution Boards and MCBs
+Distribution boards shall be of sheet steel, powder coated, wall mounted type. MCBs shall be of breaking capacity 10kA minimum.
+
+2.8 Power Transformer
+One 250 KVA oil-filled distribution transformer shall be supplied and installed at the substation. Installation shall be as per relevant codes.
+
+3. GENERAL CONDITIONS
+- All materials shall be of best quality and shall conform to latest Indian Standards
+- Contractor shall submit test certificates for all materials
+- Work shall be completed within 120 days from date of order
+- Guarantee period: 12 months from date of completion

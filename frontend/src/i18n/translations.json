@@ -1,0 +1,96 @@
+{
+  "en": {
+    "app_name": "Manak Mitra",
+    "app_subtitle": "AI Recommendations for Indian Standards",
+    "app_tagline": "Standards for Smarter Procurement",
+    "prototype_banner": "Prototype – sample standards data. Verify against the official BIS portal.",
+    "footer": "X gens | Manak Mitra — Standards for Smarter Procurement",
+    "nav": {
+      "new_analysis": "New Analysis",
+      "my_analyses": "My Analyses",
+      "standards_library": "Standards Library",
+      "help": "Help & Guide",
+      "settings": "Settings"
+    },
+    "sidebar_card": "Building Transparent and Compliant Procurement",
+    "new_analysis_title": "Upload Tender Document",
+    "new_analysis_subtitle": "Upload a tender document to get applicable Indian Standards",
+    "upload_tab": "Upload Document",
+    "text_tab": "Enter Requirement",
+    "dropzone_text": "Drag & drop your tender document here",
+    "dropzone_or": "or",
+    "choose_file": "Choose File",
+    "accepted_types": "PDF, DOCX, XLSX (max 25 MB)",
+    "textarea_placeholder": "Type or paste your requirement…",
+    "sample_menu": "Try a sample tender",
+    "analyse_btn": "Analyse",
+    "language": "Language",
+    "procurement_officer": "Procurement Officer",
+    "approve": "Approve",
+    "modify": "Modify",
+    "reject": "Reject",
+    "uncertain": "Mark Uncertain",
+    "export_pdf": "Export PDF",
+    "export_docx": "Export DOCX",
+    "export_json": "Export JSON",
+    "requirements": "Requirements",
+    "standards": "Recommended Standards",
+    "coverage": "Coverage & Gaps",
+    "conflicts": "Conflicts & Risks",
+    "audit_trail": "Audit Trail",
+    "verified": "Verified",
+    "needs_review": "Needs Review",
+    "outdated": "Outdated",
+    "qco_mandatory": "QCO-Mandatory",
+    "gaps": "Gaps",
+    "risk": "Risk"
+  },
+  "hi": {
+    "app_name": "मानक मित्र",
+    "app_subtitle": "भारतीय मानकों के लिए AI अनुशंसाएँ",
+    "app_tagline": "बेहतर खरीद के लिए मानक",
+    "prototype_banner": "प्रोटोटाइप – नमूना मानक डेटा। आधिकारिक BIS पोर्टल से सत्यापित करें।",
+    "footer": "X gens | मानक मित्र — बेहतर खरीद के लिए मानक",
+    "nav": {
+      "new_analysis": "नया विश्लेषण",
+      "my_analyses": "मेरे विश्लेषण",
+      "standards_library": "मानक पुस्तकालय",
+      "help": "सहायता",
+      "settings": "सेटिंग्स"
+    },
+    "sidebar_card": "पारदर्शी और अनुपालन खरीद का निर्माण",
+    "new_analysis_title": "निविदा दस्तावेज़ अपलोड करें",
+    "new_analysis_subtitle": "लागू भारतीय मानक प्राप्त करने के लिए निविदा दस्तावेज़ अपलोड करें",
+    "analyse_btn": "विश्लेषण करें",
+    "language": "भाषा",
+    "procurement_officer": "खरीद अधिकारी",
+    "approve": "स्वीकृत",
+    "reject": "अस्वीकृत",
+    "requirements": "आवश्यकताएँ",
+    "standards": "अनुशंसित मानक"
+  },
+  "gu": {
+    "app_name": "માનક મિત્ર",
+    "app_subtitle": "ભારતીય ધોરણો માટે AI ભલામણો",
+    "analyse_btn": "વિશ્લેષણ કરો",
+    "procurement_officer": "ખરીદ અધિકારી"
+  },
+  "ta": {
+    "app_name": "மானக் மித்ரா",
+    "app_subtitle": "இந்திய தரநிலைகளுக்கான AI பரிந்துரைகள்",
+    "analyse_btn": "பகுப்பாய்வு",
+    "procurement_officer": "கொள்முதல் அதிகாரி"
+  },
+  "mr": {
+    "app_name": "मानक मित्र",
+    "app_subtitle": "भारतीय मानकांसाठी AI शिफारसी",
+    "analyse_btn": "विश्लेषण करा",
+    "procurement_officer": "खरेदी अधिकारी"
+  },
+  "bn": {
+    "app_name": "মানক মিত্র",
+    "app_subtitle": "ভারতীয় মানগুলির জন্য AI সুপারিশ",
+    "analyse_btn": "বিশ্লেষণ",
+    "procurement_officer": "ক্রয় কর্মকর্তা"
+  }
+}

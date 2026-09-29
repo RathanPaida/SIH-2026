@@ -1,0 +1,39 @@
+{
+  "feed_date": "2026-09-01",
+  "changes": [
+    {
+      "type": "new_edition",
+      "is_number": "IS 269:2025",
+      "old_is_number": "IS 269:2015",
+      "title": "Ordinary Portland Cement — Specification (4th Revision)",
+      "effective_date": "2025-07-01",
+      "summary": "New edition with updated chemical composition limits and sustainability requirements"
+    },
+    {
+      "type": "amendment",
+      "is_number": "IS 1786:2008",
+      "amendment_no": 2,
+      "date": "2026-01-15",
+      "summary": "Added requirements for Fe 600 grade TMT bars"
+    },
+    {
+      "type": "amendment",
+      "is_number": "IS 694:2020",
+      "amendment_no": 2,
+      "date": "2026-03-01",
+      "summary": "Updated fire performance requirements for PVC cables"
+    },
+    {
+      "type": "qco_update",
+      "qco_name": "QCO for Packaged Drinking Water",
+      "effective_date": "2026-04-01",
+      "summary": "Added PFAS (per- and polyfluoroalkyl substances) limits to packaged water requirements"
+    },
+    {
+      "type": "withdrawal",
+      "is_number": "IS 5983:1980",
+      "effective_date": "2026-01-01",
+      "summary": "Withdrawn — replaced by IS 5983:2025 with updated impact protection requirements"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "description": "Gold standard mappings for evaluation. Each sample tender has expected IS recommendations.",
+  "samples": {
+    "construction_tender.txt": {
+      "expected_standards": [
+        "IS 269:2015",
+        "IS 8112:2013",
+        "IS 12269:2013",
+        "IS 1786:2008",
+        "IS 456:2000",
+        "IS 10262:2019",
+        "IS 516:2018",
+        "IS 383:2016",
+        "IS 1893:2016",
+        "IS 875:2015"
+      ],
+      "expected_findings": ["outdated_citation", "conflict", "missing_acceptance_criteria"],
+      "domain": "construction"
+    },
+    "electrical_tender.txt": {
+      "expected_standards": [
+        "IS 694:2020",
+        "IS 7098:2020",
+        "IS 732:2019",
+        "IS 3043:2018",
+        "IS 1293:2019",
+        "IS 3854:2017",
+        "IS 2026:2011",
+        "IS 1255:2019"
+      ],
+      "expected_findings": ["missing_qco", "missing_isi_mark"],
+      "domain": "electrical"
+    },
+    "it_equipment_tender.txt": {
+      "expected_standards": [
+        "IS 13252:2010",
+        "IS 13252-1:2010",
+        "IS 13252-2:2014",
+        "IS 8758:2007",
+        "IS 16046:2018",
+        "IS 16001:2017"
+      ],
+      "expected_findings": ["ambiguous_wording", "missing_safety_standard"],
+      "domain": "it_hardware"
+    },
+    "multilingual_water_tender.txt": {
+      "expected_standards": [
+        "IS 14543:2016",
+        "IS 10500:2012",
+        "IS 4905:1968",
+        "IS 4985:2000",
+        "IS 15778:2007",
+        "IS 1172:1993"
+      ],
+      "expected_findings": ["multilingual_input"],
+      "domain": "water_plumbing"
+    }
+  }
+}

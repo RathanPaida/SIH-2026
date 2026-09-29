@@ -53,6 +53,11 @@ async def lifespan(app: FastAPI):
     finally:
         db.close()
 
+    # 4. Build knowledge graph
+    print("[Startup] Building knowledge graph...")
+    from services.graph_store import build_graph
+    build_graph()
+
     from config import USE_MOCK_LLM
     if USE_MOCK_LLM:
         print("[Startup] WARNING: No OPENAI_API_KEY set -- using MOCK LLM mode.")
@@ -73,7 +78,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title="Manak Mitra API",
     description="AI-powered Indian Standards recommender for procurement tender specifications.",
-    version="1.0.0",
+    version="2.0.0",
     lifespan=lifespan,
 )
 
@@ -95,12 +100,14 @@ from routers.recommend import router as recommend_router
 from routers.review import router as review_router
 from routers.standards import router as standards_router
 from routers.export import router as export_router
+from routers.analyses import router as analyses_router
 
 app.include_router(extract_router)
 app.include_router(recommend_router)
 app.include_router(review_router)
 app.include_router(standards_router)
 app.include_router(export_router)
+app.include_router(analyses_router)
 
 
 # --- Additional utility endpoints ---
@@ -108,7 +115,15 @@ app.include_router(export_router)
 @app.get("/api/health")
 async def health_check():
     """Health check endpoint."""
-    return {"status": "healthy", "app": "Manak Mitra",}
+    from services.search_service import is_index_ready
+    from services.graph_store import is_graph_ready
+    return {
+        "status": "healthy",
+        "app": "Manak Mitra",
+        "version": "2.0.0",
+        "search_ready": is_index_ready(),
+        "graph_ready": is_graph_ready(),
+    }
 
 
 @app.get("/api/tenders")
@@ -139,9 +154,25 @@ async def get_sample_tenders():
     samples = []
     if sample_dir.exists():
         for f in sorted(sample_dir.glob("*.txt")):
+            # Clean label from filename
+            name = f.stem.replace("_", " ").title()
+            # Add emoji icon based on type
+            icon = "📄"
+            if "construct" in f.stem:
+                icon = "🏗️"
+            elif "electr" in f.stem:
+                icon = "⚡"
+            elif "it" in f.stem or "equipment" in f.stem:
+                icon = "💻"
+            elif "water" in f.stem or "multilingual" in f.stem:
+                icon = "💧"
+            elif "food" in f.stem:
+                icon = "🍽️"
+
             samples.append({
                 "filename": f.name,
-                "title": f.stem.replace("_", " ").title(),
+                "title": name,
+                "icon": icon,
                 "text": f.read_text(encoding="utf-8"),
             })
     return samples

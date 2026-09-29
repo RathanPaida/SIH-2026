@@ -1,0 +1,124 @@
+{
+  "relations": [
+    {"from": "IS 269:2015", "to": "IS 8112:2013", "type": "REFERENCES"},
+    {"from": "IS 269:2015", "to": "IS 12269:2013", "type": "REFERENCES"},
+    {"from": "IS 269:2015", "to": "IS 516:2018", "type": "TEST_METHOD_FOR"},
+    {"from": "IS 269:2015", "to": "IS 269:1989", "type": "SUPERSEDES"},
+    {"from": "IS 8112:2013", "to": "IS 516:2018", "type": "TEST_METHOD_FOR"},
+    {"from": "IS 12269:2013", "to": "IS 516:2018", "type": "TEST_METHOD_FOR"},
+    {"from": "IS 456:2000", "to": "IS 269:2015", "type": "REFERENCES"},
+    {"from": "IS 456:2000", "to": "IS 1786:2008", "type": "REFERENCES"},
+    {"from": "IS 456:2000", "to": "IS 10262:2019", "type": "REFERENCES"},
+    {"from": "IS 456:2000", "to": "IS 383:2016", "type": "REFERENCES"},
+    {"from": "IS 456:2000", "to": "IS 516:2018", "type": "TEST_METHOD_FOR"},
+    {"from": "IS 456:2000", "to": "IS 1893:2016", "type": "ALLIED_TO"},
+    {"from": "IS 456:2000", "to": "IS 875:2015", "type": "ALLIED_TO"},
+    {"from": "IS 10262:2019", "to": "IS 383:2016", "type": "REFERENCES"},
+    {"from": "IS 10262:2019", "to": "IS 269:2015", "type": "REFERENCES"},
+    {"from": "IS 10262:2019", "to": "IS 3812:2013", "type": "REFERENCES"},
+    {"from": "IS 1077:1992", "to": "IS 3495:1992", "type": "TEST_METHOD_FOR"},
+    {"from": "IS 694:2020", "to": "IS 694:1990", "type": "SUPERSEDES"},
+    {"from": "IS 694:2020", "to": "IS 732:2019", "type": "ALLIED_TO"},
+    {"from": "IS 7098:2020", "to": "IS 694:2020", "type": "ALLIED_TO"},
+    {"from": "IS 7098:2020", "to": "IS 732:2019", "type": "ALLIED_TO"},
+    {"from": "IS 732:2019", "to": "IS 3043:2018", "type": "REFERENCES"},
+    {"from": "IS 732:2019", "to": "IS 694:2020", "type": "REFERENCES"},
+    {"from": "IS 732:2019", "to": "IS 1293:2019", "type": "REFERENCES"},
+    {"from": "IS 732:2019", "to": "IS 3854:2017", "type": "REFERENCES"},
+    {"from": "IS 13252:2010", "to": "IS 13252-1:2010", "type": "ALLIED_TO"},
+    {"from": "IS 13252-1:2010", "to": "IS 13252-2:2014", "type": "ALLIED_TO"},
+    {"from": "IS 14543:2016", "to": "IS 10500:2012", "type": "REFERENCES"},
+    {"from": "IS 14543:2016", "to": "IS 4905:1968", "type": "TEST_METHOD_FOR"},
+    {"from": "IS 7933:2010", "to": "IS 10500:2012", "type": "REFERENCES"},
+    {"from": "IS 4985:2000", "to": "IS 1172:1993", "type": "ALLIED_TO"},
+    {"from": "IS 15778:2007", "to": "IS 1172:1993", "type": "ALLIED_TO"},
+    {"from": "IS 2026:2011", "to": "IS 1255:2019", "type": "ALLIED_TO"},
+    {"from": "IS 1293:2019", "to": "IS 3854:2017", "type": "ALLIED_TO"},
+    {"from": "IS 16046:2018", "to": "IS 13252:2010", "type": "ALLIED_TO"}
+  ],
+  "amendments": [
+    {"standard": "IS 269:2015", "amendment_no": 1, "date": "2020-06-15", "summary": "Clause 7.2 revised — updated compressive strength tolerance for 53 grade cement"},
+    {"standard": "IS 269:2015", "amendment_no": 2, "date": "2022-03-10", "summary": "Added requirements for limestone content in OPC"},
+    {"standard": "IS 1786:2008", "amendment_no": 1, "date": "2012-09-01", "summary": "Revised chemical composition limits for Fe 500D grade"},
+    {"standard": "IS 456:2000", "amendment_no": 1, "date": "2005-07-01", "summary": "Updated durability provisions for aggressive environments"},
+    {"standard": "IS 456:2000", "amendment_no": 2, "date": "2013-11-01", "summary": "Revised exposure conditions and minimum cement content requirements"},
+    {"standard": "IS 694:2020", "amendment_no": 1, "date": "2022-01-15", "summary": "Updated conductor resistance values for copper and aluminium conductors"},
+    {"standard": "IS 1077:1992", "amendment_no": 1, "date": "1996-05-01", "summary": "Added tolerance for dimensional requirements of bricks"},
+    {"standard": "IS 14543:2016", "amendment_no": 1, "date": "2019-08-01", "summary": "Revised microbiological limits for packaged drinking water"},
+    {"standard": "IS 10500:2012", "amendment_no": 1, "date": "2018-04-01", "summary": "Updated permissible limits for arsenic and fluoride in drinking water"}
+  ],
+  "qcos": [
+    {
+      "name": "QCO for Portland Cement",
+      "product": "Ordinary Portland Cement (OPC)",
+      "notification_ref": "S.O. 2042(E)",
+      "effective_date": "2003-01-01",
+      "certification_scheme": "ISI Mark (CM/L)",
+      "notes": "All grades of OPC manufactured in India require ISI mark certification",
+      "standards": ["IS 269:2015", "IS 8112:2013", "IS 12269:2013"]
+    },
+    {
+      "name": "QCO for Steel for Concrete Reinforcement",
+      "product": "TMT Steel Bars",
+      "notification_ref": "S.O. 1356(E)",
+      "effective_date": "2015-06-01",
+      "certification_scheme": "ISI Mark",
+      "notes": "All steel bars and wires for concrete reinforcement require ISI mark",
+      "standards": ["IS 1786:2008"]
+    },
+    {
+      "name": "QCO for Electrical Cables",
+      "product": "PVC Insulated Cables up to 1100V",
+      "notification_ref": "S.O. 3037(E)",
+      "effective_date": "2014-03-01",
+      "certification_scheme": "ISI Mark",
+      "notes": "All PVC insulated cables for domestic and industrial use require ISI certification",
+      "standards": ["IS 694:2020"]
+    },
+    {
+      "name": "QCO for Packaged Drinking Water",
+      "product": "Packaged Drinking Water",
+      "notification_ref": "S.O. 4649(E)",
+      "effective_date": "2019-10-01",
+      "certification_scheme": "ISI Mark",
+      "notes": "All packaged drinking water must conform to BIS standards and carry ISI mark",
+      "standards": ["IS 14543:2016", "IS 7933:2010"]
+    },
+    {
+      "name": "QCO for Safety Helmets",
+      "product": "Industrial Safety Helmets",
+      "notification_ref": "S.O. 2918(E)",
+      "effective_date": "2018-07-01",
+      "certification_scheme": "ISI Mark",
+      "notes": "Industrial safety helmets require BIS certification",
+      "standards": ["IS 2925:1984"]
+    },
+    {
+      "name": "QCO for Plugs and Socket-Outlets",
+      "product": "Domestic Plugs and Sockets",
+      "notification_ref": "S.O. 5821(E)",
+      "effective_date": "2020-01-01",
+      "certification_scheme": "ISI Mark",
+      "notes": "All plugs and socket-outlets for domestic use require ISI certification",
+      "standards": ["IS 1293:2019"]
+    },
+    {
+      "name": "QCO for Switches",
+      "product": "Domestic Switches",
+      "notification_ref": "S.O. 5822(E)",
+      "effective_date": "2020-01-01",
+      "certification_scheme": "ISI Mark",
+      "notes": "Switches for domestic and similar purposes require ISI certification",
+      "standards": ["IS 3854:2017"]
+    },
+    {
+      "name": "CRS for IT Equipment",
+      "product": "IT Equipment (Laptops, Monitors, UPS)",
+      "notification_ref": "CRS Order 2012",
+      "effective_date": "2013-11-01",
+      "certification_scheme": "CRS (Compulsory Registration Scheme)",
+      "notes": "IT equipment including laptops, monitors, UPS must be registered under CRS",
+      "standards": ["IS 13252:2010"]
+    }
+  ]
+}

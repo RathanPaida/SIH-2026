@@ -1,0 +1,106 @@
+{
+  "construction": {
+    "label": "Construction Materials",
+    "checklist": [
+      "Material specification (grade, composition)",
+      "Testing and acceptance criteria",
+      "Sampling method reference",
+      "Marking and labelling requirements",
+      "Packaging and storage requirements",
+      "Certification / ISI mark requirement",
+      "Delivery and inspection clause",
+      "Warranty / guarantee period"
+    ]
+  },
+  "electrical": {
+    "label": "Electrical Equipment & Cables",
+    "checklist": [
+      "Product specification standard",
+      "Safety standard (IS 13252 or equivalent)",
+      "Installation code of practice",
+      "Testing / type test requirements",
+      "EMC requirements",
+      "ISI mark / BIS certification",
+      "Earthing / grounding reference",
+      "Warranty and maintenance clause"
+    ]
+  },
+  "it_hardware": {
+    "label": "IT Hardware & Electronics",
+    "checklist": [
+      "Product safety standard (IS 13252)",
+      "EMC compliance",
+      "CRS registration / BIS certification",
+      "Performance specification",
+      "Power adapter safety (IS 16046)",
+      "Energy efficiency rating",
+      "Warranty and AMC terms",
+      "Environmental compliance (RoHS/e-waste)"
+    ]
+  },
+  "water_plumbing": {
+    "label": "Water & Plumbing",
+    "checklist": [
+      "Water quality standard (IS 10500 / IS 14543)",
+      "Pipe material specification",
+      "Pressure rating requirements",
+      "Test method reference",
+      "ISI mark for pipes / fittings",
+      "Installation code of practice",
+      "Sampling and testing frequency",
+      "Packaging and marking"
+    ]
+  },
+  "food_beverages": {
+    "label": "Food & Beverages",
+    "checklist": [
+      "Product specification standard",
+      "Hygiene / HACCP requirements",
+      "Packaging and labelling standard",
+      "Microbiological limits",
+      "Chemical limits",
+      "Shelf life requirements",
+      "FSSAI registration / ISI mark",
+      "Sampling and testing method"
+    ]
+  },
+  "steel": {
+    "label": "Steel & Metals",
+    "checklist": [
+      "Material grade specification",
+      "Chemical composition requirements",
+      "Mechanical properties (tensile, yield)",
+      "Test certificate / mill certificate",
+      "ISI mark requirement",
+      "Dimensional tolerances",
+      "Marking and identification",
+      "Sampling plan"
+    ]
+  },
+  "furniture": {
+    "label": "Furniture",
+    "checklist": [
+      "Product specification standard",
+      "Dimensional requirements",
+      "Material specification",
+      "Strength and stability tests",
+      "Surface finish requirements",
+      "Warranty clause",
+      "Fire resistance (if applicable)",
+      "Packaging and delivery"
+    ]
+  },
+  "textiles": {
+    "label": "Textiles",
+    "checklist": [
+      "Fabric specification standard",
+      "Fibre composition / blend",
+      "Physical property requirements (tensile, tearing)",
+      "Colour fastness requirements",
+      "Dimensional stability",
+      "Marking and labelling",
+      "Sampling plan",
+      "Environmental / azo dye compliance"
+    ]
+  }
+}

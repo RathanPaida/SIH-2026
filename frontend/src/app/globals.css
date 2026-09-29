@@ -1,31 +1,214 @@
 @import "tailwindcss";
 
-/* Custom scrollbar for dark mode */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+/* ─── Manak Mitra Design System ─── */
+:root {
+  --primary: #1B75BB;
+  --primary-dark: #1565A0;
+  --navy: #1F3864;
+  --navy-light: #2A4A7F;
+  --saffron: #E87722;
+  --green: #138808;
+  --bg: #F5F8FC;
+  --card: #FFFFFF;
+  --card-border: #E2E8F0;
+  --text: #1E293B;
+  --text-muted: #64748B;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
+  /* Status colors */
+  --status-green: #138808;
+  --status-amber: #D97706;
+  --status-red: #DC2626;
+  --status-blue: #1B75BB;
 }
 
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #334155;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #475569;
-}
-
-/* Smooth transitions globally */
+/* ─── Base Styles ─── */
 * {
   scroll-behavior: smooth;
 }
 
-/* Custom selection color */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
 ::selection {
-  background-color: rgba(245, 158, 11, 0.3);
+  background-color: rgba(27, 117, 187, 0.2);
+  color: var(--navy);
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* ─── Focus Rings (WCAG) ─── */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Prototype Banner ─── */
+.prototype-banner {
+  background: linear-gradient(90deg, #FEF3C7 0%, #FDE68A 100%);
+  color: #92400E;
+  font-size: 12px;
+  padding: 6px 16px;
+  text-align: center;
+  font-weight: 500;
+  border-bottom: 1px solid #FCD34D;
+}
+
+/* ─── Sidebar ─── */
+.sidebar {
+  width: 260px;
+  min-height: calc(100vh - 56px - 30px);
+  background: white;
+  border-right: 1px solid var(--card-border);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  margin: 2px 8px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: all 0.15s ease;
+  text-decoration: none;
+}
+.sidebar-link:hover {
+  background: #F1F5F9;
+  color: var(--text);
+}
+.sidebar-link.active {
+  background: #EFF6FF;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* ─── Cards ─── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* ─── Status Chips ─── */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.chip-green { background: #ECFDF5; color: #065F46; }
+.chip-amber { background: #FFFBEB; color: #92400E; }
+.chip-red { background: #FEF2F2; color: #991B1B; }
+.chip-blue { background: #EFF6FF; color: #1E40AF; }
+.chip-gray { background: #F1F5F9; color: #475569; }
+
+/* ─── Top Bar ─── */
+.topbar {
+  height: 56px;
+  background: var(--navy);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
   color: white;
+}
+
+/* ─── Footer ─── */
+.footer-strip {
+  height: 30px;
+  background: #F8FAFC;
+  border-top: 1px solid var(--card-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ─── Pipeline Stepper ─── */
+.stepper-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.stepper-item.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+.stepper-item.done {
+  color: var(--status-green);
+}
+.stepper-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+.stepper-dot.pending { background: #E2E8F0; color: #94A3B8; }
+.stepper-dot.active { background: var(--primary); color: white; animation: pulse-dot 1.5s infinite; }
+.stepper-dot.done { background: var(--status-green); color: white; }
+
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(27,117,187,0.3); }
+  50% { box-shadow: 0 0 0 6px rgba(27,117,187,0); }
+}
+
+/* ─── Animations ─── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-slideUp {
+  animation: slideUp 0.4s ease-out;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
 }
