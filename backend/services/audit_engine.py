@@ -102,7 +102,7 @@ def detect_gaps(text: str, domain: str, requirements: list[dict], coverage_matri
     }
 
     for item in checklist:
-        keywords = checklist_keywords.get(item, [item.lower().split()[0:2]])
+        keywords = checklist_keywords.get(item, item.lower().split()[0:2])
         if isinstance(keywords, str):
             keywords = [keywords]
         found = any(kw in all_text for kw in keywords)
