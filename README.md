@@ -58,6 +58,42 @@ Open **http://localhost:3000** in your browser.
 
 Manak Mitra is a **Compliance and Audit Engine**, not just a search box. It enforces a strict "AI proposes, Human disposes" workflow.
 
+```mermaid
+graph TD
+    subgraph Frontend [Frontend: Next.js 16]
+        UI[User Interface / Workspace]
+        Lang[Language Context i18n]
+        Upload[Tender Upload / Text Paste]
+    end
+
+    subgraph Backend [Backend: FastAPI Python]
+        API[FastAPI Router]
+        Pipeline[12-Stage AI Pipeline]
+        LLM[LLM Service for Extraction/Justification]
+        Audit[Audit Engine: Gaps & Conflicts]
+        
+        subgraph Databases [Storage & Search]
+            SQLite[(SQLite Database)]
+            FAISS[(FAISS Vector DB)]
+        end
+    end
+
+    User((User)) -->|Uploads Tender| UI
+    UI -->|API Request| API
+    API --> Pipeline
+    Pipeline -->|Extract Requirements| LLM
+    Pipeline -->|Retrieval Lexical + Semantic| FAISS
+    Pipeline -->|Graph Search & Lifecycle| SQLite
+    Pipeline -->|Verify Gaps & Risks| Audit
+    
+    FAISS -.->|Returns Standards| Pipeline
+    SQLite -.->|Returns Relations & QCOs| Pipeline
+    Audit -.->|Risk Score & Findings| Pipeline
+    
+    Pipeline -->|Analysis Result JSON| UI
+    UI -->|Displays Workspace| User
+```
+
 ### Backend Infrastructure (FastAPI + SQLite + FAISS)
 1. **Knowledge Graph**: Stored in SQLite (`models.py`). Every `Standard` has lifecycle links (superseded by, amended by) and `QCO` checks (Quality Control Orders).
 2. **Hybrid RRF Search Engine**: When looking up standards, the system combines:
