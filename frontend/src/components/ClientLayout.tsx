@@ -18,6 +18,19 @@ function MainLayoutContent({ children }: { children: React.ReactNode }) {
     { name: t("settings", "nav"), path: "/settings", icon: "⚙️" },
   ];
 
+  const isLandingPage = pathname === "/";
+
+  if (isLandingPage) {
+    return (
+      <div className="min-h-screen bg-slate-50 relative overflow-x-hidden">
+        <div className="absolute top-6 right-6 z-50 bg-navy/80 backdrop-blur-md rounded-lg p-1 border border-white/10">
+          <LanguageSwitcher />
+        </div>
+        {children}
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen flex flex-col bg-slate-50">
       {/* Prototype Banner */}
